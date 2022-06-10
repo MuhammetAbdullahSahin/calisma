@@ -242,10 +242,10 @@ int main(void)
                 }
              
         }
-        */
+        
 
         printf("%d",can[0][0]);
-
+        */
 
 
         /*
