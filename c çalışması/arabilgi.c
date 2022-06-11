@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
-#include <math.h>
-#include <string.h>
+
+void can()
+{
+        int x = 3;
+        printf("%d\n", x);
+}
 
 int main()
 {
-        int x=1;//global
-
+        int x = 1;
         {
-                int x=2;//local
-                printf("%d\n",x);
+                int x = 2;
+                printf("%d\n", x);
+                can();
         }
-        printf("%d\n",x);
-
-        return 0;
 }
