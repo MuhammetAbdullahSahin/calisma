@@ -6,12 +6,32 @@
 
 int main(void)
 {
+
+        /*
+        char can[100]="C dilini ogreniyoruz";
+        char *sub;
+        sub=strstr(can,"dil");// aranan kelimeden sonrasını yazdırır
+        printf("\nArama sonrası yeni string: %s", sub);
+        */
+
+
+        /*
         char can[100];
         printf("text girin\n");
         //scanf("%s", &can); // boşluk gördüğünde okumayı bırakır
         fgets(can, sizeof(can), stdin);
         printf("girilen text %s\n", can);
-        printf("küçük hali %s\n",strlwr(can));
+        printf("büyük hali %s\n",strupr(can));//büyük harfe dödürür
+        */
+
+        /*
+        char can[100];
+        printf("text girin\n");
+        //scanf("%s", &can); // boşluk gördüğünde okumayı bırakır
+        fgets(can, sizeof(can), stdin);
+        printf("girilen text %s\n", can);
+        printf("küçük hali %s\n",strlwr(can));//küçük harfe döndürür
+        */
 
         /*
         char can[100];
