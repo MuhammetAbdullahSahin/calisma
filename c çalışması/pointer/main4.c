@@ -13,9 +13,10 @@ int main()
         ptr++;
         printf("ikinci eleman %d\n", ptr);
         printf("ucuncu eleman %d\n", ptr+1);// ptr++ ve (ptr + 1) aynı şeyi ifade eder
-//ilk eleman         2084568464
-//ikinci eleman      2084568468
-//ucuncu eleman      2084568472
+        //ilk eleman         2084568464
+        //ikinci eleman      2084568468
+        //ucuncu eleman      2084568472
+        // *ptr 1. dizi elemanının değerini gösterir *(ptr+1) 2. dizi elemanının değerini gösterir...
 
         return 0;
 }
