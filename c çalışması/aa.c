@@ -14,7 +14,7 @@ int main()
         // int a = 10, b=20;
         // printf("%d %d %d",a,b,c); eğer int c değeri tanımlamazsam hataverir çalışmaz 
 
-//         char isim[7]= "abdullah";// \0 hesaba katmaksak \0 7 inci karakter olur yani hata verir abulla diye çıktı alır     
-//         printf("%s", isim);
+        //char isim[7]= "abdullah";// \0 hesaba katmaksak \0 7 inci karakter olur yani hata verir abulla diye çıktı alır     
+        //printf("%s", isim);
          return 0;
  }
