@@ -38,7 +38,7 @@
                 char adres[50];
                 struct tarih ise_giris;
                 double maas;
-        };calısan*/
+        }calısan;*/
 int main()
 {
 
