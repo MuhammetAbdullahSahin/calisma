@@ -11,12 +11,12 @@ struct ogrenci
 
 int main()
 {
-        struct ogrenci apo={"Apo","Sahin", 19};
+       // struct ogrenci apo={"Apo","Sahin", 19};
 
-        /*struct ogrenci apo;
+        struct ogrenci apo;
         strcpy(apo.ad,"apo");
         strcpy(apo.soyad,"sahin");
-        apo.yas=19;*/
+        apo.yas=19;
         
         printf("%s \t %s \t %d", apo.ad, apo.soyad, apo.yas);
 

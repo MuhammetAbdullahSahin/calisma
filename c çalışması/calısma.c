@@ -3,7 +3,14 @@
 #include <stdbool.h>
 #include <math.h>
 #include <string.h>
-#define CHARDIZIBOYUT 10000
+#define MAXSIZE 10000
+//çıktısı:
+// Lutfen bir cumle yada kelime giriniz:
+// melih artar
+// ilk cumle melih artar boyutu 11
+// Lutfen bir cumle yada kelime giriniz:
+// melih artar 
+// melih artar metni ile melih artar metni içindeki ortak harfler 11
 
 int karsilas(char dizi1[], char dizi2[])
 {       
@@ -15,6 +22,7 @@ int karsilas(char dizi1[], char dizi2[])
                         if(dizi1[i] == dizi2[j])
                         {
                                 k++;
+                                break;
                         }
 
                 }    
@@ -37,8 +45,8 @@ int sayi(char dizi[])
 
 int main()
 {
-        char metin1[CHARDIZIBOYUT];
-        char metin2[CHARDIZIBOYUT];
+        char metin1[MAXSIZE];
+        char metin2[MAXSIZE];
         printf("Lutfen bir cumle yada kelime giriniz:\n");
         gets(metin1);
         printf("ilk cumle %s boyutu %d\n", metin1, sayi(metin1));
