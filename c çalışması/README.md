@@ -1,6 +1,6 @@
 #include <string.h>
 /*
-
+a
 *strlen     : bir karakter dizisinin boyutu.
 *strcmp     : iki karakte dizisini karşılaştırır.
 *strncmp    : belirli bir n karakter limitine kadar 2 diziyi karşılaştırır.
